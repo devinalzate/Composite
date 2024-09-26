@@ -1,5 +1,6 @@
 import Components.ComponenteCompuesto;
 import Components.Parte;
+import Interface.Vehiculo;
 
 public class Controller {
     public static void main(String[] args) {

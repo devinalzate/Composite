@@ -1,13 +1,13 @@
+package Components;
 import java.util.*;
 
-package Components;
 
 import Interface.Vehiculo;
 
 public class ComponenteCompuesto implements Vehiculo{
 
     private String nombre;
-    private ArrayList<Vehiculo> componentes = (Vehiculo) new ArrayList();
+    private ArrayList<Vehiculo> componentes = new ArrayList<>();
 
     public ComponenteCompuesto(String nombre) {
         this.nombre = nombre;
@@ -23,7 +23,6 @@ public class ComponenteCompuesto implements Vehiculo{
 
     @Override
     public void mostrar() {
-        throw new UnsupportedOperationException("Not supported yet.");
     }
     
 }
